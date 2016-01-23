@@ -1,0 +1,113 @@
+<!doctype html>
+<html>
+  <head>
+    <title>
+      Home Automation
+    </title>
+    <link rel='stylesheet' type='text/css' href='style.css'/>
+  </head>
+  <body>
+    <div id='main'>
+      <div id='header'>
+        <div id='header-top'>
+          <div style='display: inline-block; float: left;'>
+            Logged in as Emanuel
+          </div>
+          <a href='oops.html'>
+            <div style='display: inline-block; float: right;'>
+              Logout
+            </div>
+          </a>
+        </div>
+        <div id='header-bottom'>
+          <a href='oops.html'>
+            Home Automation
+          </a>
+          <a href='oops.html'>
+            <div style='font-size: 3vh;'>Custom Graph Generator</div>
+          </a>
+        </div>
+      </div>
+      <div class='panel'>
+        <div class='panel-header'>
+          HEATING
+        </div>
+        <div class='panel-button-on'>
+          ON
+        </div>
+        <div class='panel-button-off'>
+          OFF
+        </div>
+        <div class='panel-button-auto'>
+          AUTO
+        </div>
+        <input id='name' type="username" name="user" placeholder="TEMP" required>
+      </div>
+      <div class='panel'>
+        <div class='panel-header' style='font-size: 2.6vh;'>
+          AIR CONDITIONING
+        </div>
+        <div class='panel-button-on'>
+          ON
+        </div>
+        <div class='panel-button-off'>
+          OFF
+        </div>
+      </div>
+      <div class='panel'>
+        <div class='panel-header'>
+          LIGHT
+        </div>
+        <div class='panel-button-on'>
+          ON
+        </div>
+        <div class='panel-button-off'>
+          OFF
+        </div>
+      </div>
+      <div class='panel'>
+        <div class='panel-header' style='font-size: 2.6vh;'>
+          MORNING HELPER
+        </div>
+        <div class='panel-button-on'>
+          ON
+        </div>
+        <div class='panel-button-off'>
+          OFF
+        </div>
+        <input id='name' type="username" name="user" placeholder="TIME" required style="
+          border-radius: 100vh;
+          margin-left: 35%;
+          width: 30%;
+          text-align: center;
+          padding: 0;
+        ">
+      </div>
+      <div id='status'>
+        <div class='status-line'>
+          Current Temperature: 18.5 &#8451
+        </div>
+        <div class='status-line'>
+          Heating Status: OFF
+        </div>
+        <div class='status-line'>
+          AC Status: NO AC
+        </div>
+        <div class='status-line'>
+          Outsite Temperature: -6 &#8451
+        </div>
+        <div class='status-line'>
+          Light Status: OFF
+        </div>
+        <div class='status-line'>
+          Morning Helper: OFF
+        </div>
+      </div>
+    </div>
+    <div class='graph' style='background-image: url("img/1.jpg"); background-size: 100% 100%;'></div>
+    <div class='graph' style='background-image: url("img/1.jpg"); background-size: 100% 100%;'></div>
+    <div class='graph' style='background-image: url("img/1.jpg"); background-size: 100% 100%;'></div>
+    <div class='graph' style='background-image: url("img/1.jpg"); background-size: 100% 100%;'></div>
+    <div class='graph' style='background-image: url("img/1.jpg"); background-size: 100% 100%;'></div>
+  </body>
+</html>

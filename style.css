@@ -1,0 +1,195 @@
+
+@font-face {
+  font-family: 'Montserrat-Light.otf';
+  src: url('fonts/Montserrat-Light.otf');
+}
+
+body {
+  margin: 0;
+  font-family: 'Montserrat-Light.otf';
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+div#main {
+  height: 100vh;
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+div#header {
+  margin-top: 5vh;
+  width: 100%;
+  height: 25vh;
+  background-color: #A5DAD2;
+  border-radius: 2vh;
+  margin-bottom: 5vh;
+}
+
+div#header-top {
+  height: 8vh;
+  width: 86%;
+  line-height: 8vh;
+  font-size: 2.5vh;
+  color: #fff;
+  padding-left: 8%;
+}
+div#header-bottom {
+  height: 12vh;
+  margin-top: 2vh;
+  line-height: 6vh;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  font-size: 5vh;
+}
+
+div.panel {
+  float: left;
+  display: inline-block;
+  height: 30vh;
+  width: 20%;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  margin-top: 1vh;
+  margin-bottom: 3vh;
+  background-color: #FCBA63;
+  border-radius: 3vh;
+}
+div.panel-header {
+  height: 10vh;
+  font-size: 4vh;
+  line-height: 10vh;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+}
+div.panel-button-on, div.panel-button-off {
+  height: 5vh;
+  width: 30%;
+  margin-left: 35%;
+  margin-right: 35%;
+  font-size: 3vh;
+  line-height: 5vh;
+  text-align: center;
+  border-radius: 100vh;
+  color: #fff;
+  transition: 0.4s;
+  margin-bottom: 1vh;
+  background-color: #F68C3E;
+}
+div.panel-button-on:hover, div.panel-button-off:hover {
+  transition: 0.4s;
+  width: 40%;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+div.panel-button-auto {
+  height: 5vh;
+  width: 25%;
+  margin-left: 20%;
+  padding-right: 5%;
+  font-size: 2vh;
+  line-height: 5vh;
+  text-align: right;
+  color: #fff;
+  transition: 0.4s;
+  margin-bottom: 1vh;
+  background-color: #F68C3E;
+  display: inline-block;
+  float: left;
+  border-top-left-radius: 100vh;
+  border-bottom-left-radius: 100vh;
+}
+div.panel-button-auto:hover {
+  margin-left: 15%;
+  width: 30%;
+}
+input {
+  text-align: center;
+  border-top-right-radius: 100vh;
+  border-bottom-right-radius: 100vh;
+  float: left;
+  display: inline-block;
+  height: 4.7vh; /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+  font-weight: bold;
+  width: 25%;
+  padding-right: 5%;
+  background: #fff;
+  border: 0;
+  text-align: center;
+  outline: 0;
+  color: #F68C3E;
+  font-size: 2vh;
+}
+textarea:focus, input:focus {
+/*  background: rgba(22, 24, 30, 0.50);  */
+  text-align: center;
+  outline: none;
+  font-size: 2vh;
+  color: #F68C3E;
+}
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+  color: #F68C3E;
+  font-weight: normal;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+  color: #F68C3E;
+  opacity: 1;
+  font-weight: normal;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+  color: #F68C3E;
+  opacity: 1;
+  font-weight: normal;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #F68C3E;
+  font-weight: normal;
+}
+:placeholder-shown { /* Standard (https://drafts.csswg.org/selectors-4/#placeholder) */
+  color: #F68C3E;
+}
+
+div#status {
+  height: 30vh; 
+  width: 100%;
+  margin-top: 40vh;
+  border-radius: 2vh;
+}
+div.status-line {
+  margin-top: 4.66vh;
+  height: 8vh;
+  width: 27%;
+  margin-left: 3%;
+  margin-right: 3%;
+  background-color: #F68C3E;
+  float: left;
+  display: inline-block;
+  border-radius: 2vh;
+  line-height: 8vh;
+  font-size: 2.5vh;
+  color: #fff;
+  text-align: center;
+  transition: 0.4s;
+}
+div.status-line:hover {
+  transition: 0.4s;
+  background-color: #FCBA63;
+  border-radius: 0;
+}
+
+div.graph {
+  margin-bottom: 10vh;
+  height: 42vh;
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+
+
